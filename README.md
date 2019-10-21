@@ -3,6 +3,10 @@
 [pypi-image]: https://img.shields.io/pypi/v/korean-name-generator.svg
 [pypi-url]: https://img.shields.io/pypi/v/korean-name-generator
 
+*본 프로젝트는 npm의 [korean-name-generator](https://www.npmjs.com/package/korean-name-generatorhttps://www.npmjs.com/package/korean-name-generator)를 python 패키지로 재배포한 프로젝트입니다.*
+
+*원작자에 대한 정보는 [여기](https://github.com/agemor/korean-name-generator)서 확인해주세요.*
+
 한국어 이름을 랜덤으로 작명해 주는 라이브러리입니다. 남자 이름과 여자 이름 중 하나를 지정하면 그에 어울리는 이름이 생성됩니다.
 
 ## 설치하기

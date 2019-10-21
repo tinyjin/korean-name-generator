@@ -1,4 +1,4 @@
-import trained_data as trainedData
+from korean_name_generator import trained_data as trainedData
 import random
 import math
 
