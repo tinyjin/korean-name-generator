@@ -7,7 +7,7 @@ def generateCustom(trainedDataMatrix):
     """
     랜덤한 한국 이름을 생성한다.
 
-    :arg isMale: 남자 또는 여자의 성별 여부.
+    :param isMale: 남자 또는 여자의 성별 여부.
     """
 
     def ensure(n):
@@ -66,7 +66,7 @@ def train(nameList, compress=False):
     """
     이름 리스트를 토대로 통계적 학습 데이터를 생성한다.
 
-    :arg nameList: 학습할 이름 목록
+    :param nameList: 학습할 이름 목록
     """
 
     trainedNameData = [[[], [], [], []], [[], [], [], []]]
@@ -127,7 +127,7 @@ def uncompressEmptyPart(array):
     """
     압축된 배열을 원래 상태로 되돌린다.
 
-    :arg array: 압축 해제할 대상 배열
+    :param array: 압축 해제할 대상 배열
     """
     originalArray = []
 
