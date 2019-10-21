@@ -12,13 +12,13 @@ pip install korean-name-generator
 
 ## 사용하기
 ```python
-from korean_name_generator import generate
+from korean_name_generator import namer
 
 # 남자 이름 생성
-male_name = generate(True)
+male_name = namer.generate(True)
 
 # 여자 이름 생성
-female_name = generate(False)
+female_name = namer.generate(False)
 ```
 
 ## 작명 원리
@@ -29,14 +29,14 @@ female_name = generate(False)
 
 현재 기본적으로 남자 이름은 약 10000개, 여자 이름은 1000개가 학습되어 있으나, 다른 이름을 학습 데이터로 사용할 수도 있습니다.
 ```python
-from korean_name_generator import train, generateCustom
+from korean_name_generator import namer
 names = ['홍범도', '안중근', '유관순', '이봉창', '김좌진']
 
 # 학습
-trainedData = train(names)
+trainedData = namer.train(names)
 
 # 학습된 데이터를 바탕으로 이름 생성
-name = generateCustom(trainedData)
+name = namer.generateCustom(trainedData)
 ```
 
 ## 라이센스
